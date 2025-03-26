@@ -197,9 +197,9 @@
 				let a = player.api("playlist_id");
 				const acc = document.getElementsByClassName("music__text");
 				for (let i = 0; i < acc.length; i++) {
-					acc[i].classList.remove('music__text_activ');
+					acc[i].classList.remove('music__text--activ');
 				}
-				document.getElementById(a).classList.add('music__text_activ');
+				document.getElementById(a).classList.add('music__text--activ');
 			}
 		};
 
